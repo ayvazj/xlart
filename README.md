@@ -9,6 +9,10 @@ Installation
 ------------
 
 ```bash
+    # pip
+    pip install xlart
+
+    # Manually
     python setup.py install
 ```
 
