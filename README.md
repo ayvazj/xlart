@@ -25,7 +25,6 @@ You can control the downsampling with the --scale argument.
 ```bash
     # output 1 cell for every 3 pixels of the image
     xlart image.png destination.xlsx --scale=3
-/>
 ```
 
 Troubleshooting
