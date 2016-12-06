@@ -6,7 +6,8 @@ xlart
 
 Excel art generator
 
-<img src="doc/demo.png" width="637" height="451">
+![](doc/demo.png | width=637)
+
 
 Installation
 ------------
