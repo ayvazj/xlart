@@ -6,7 +6,7 @@ xlart
 
 Excel art generator
 
-![](./doc/demo.png | width=637)
+![](https://raw.github.com/ayvazj/xlart/master/doc/demo.png | width=637)
 
 
 Installation
