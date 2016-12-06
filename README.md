@@ -1,3 +1,7 @@
+.. image:: https://travis-ci.org/ayvazj/xlart.svg?branch=master
+    :target: https://travis-ci.org/ayvazj/xlart
+    :alt: Build status
+
 xlart
 =====
 
@@ -8,13 +12,14 @@ Excel art generator
 Installation
 ------------
 
-```bash
-    # pip
-    pip install xlart
+Using PIP
 
-    # Manually
-    python setup.py install
-```
+    $ pip install xlart
+
+Using setup
+
+    $ python setup.py install
+
 
 Usage
 -----
@@ -41,3 +46,11 @@ installing again.
     pip install --upgrade pip
     pip install Pillow
 ```
+
+Links
+=====
+* PyPI_
+* `Project Page`_
+
+.. _PyPI: https://pypi.python.org/pypi/xlart/0.1.0/
+.. _`Project Page`: https://github.com/ayvazj/xlart/
