@@ -1,6 +1,5 @@
-.. image:: https://travis-ci.org/ayvazj/xlart.svg?branch=master
-    :target: https://travis-ci.org/ayvazj/xlart
-    :alt: Build status
+
+[![Build Status](https://travis-ci.org/ayvaz/xlart.svg?branch=master)](https://travis-ci.org/ayvazj/xlart)
 
 xlart
 =====
