@@ -48,7 +48,7 @@ installing again.
 
 Links
 =====
-* ![Sample Screenshots][2]
+* ![PyPI][2]
 
 
 [1]: https://raw.github.com/ayvazj/xlart/master/doc/demo.png
