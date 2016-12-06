@@ -6,8 +6,7 @@ xlart
 
 Excel art generator
 
-![](https://raw.github.com/ayvazj/xlart/master/doc/demo.png | width=637)
-
+![Sample Screenshots][1]
 
 Installation
 ------------
@@ -49,8 +48,8 @@ installing again.
 
 Links
 =====
-* PyPI_
-* `Project Page`_
+* ![Sample Screenshots][2]
 
-.. _PyPI: https://pypi.python.org/pypi/xlart/0.1.0/
-.. _`Project Page`: https://github.com/ayvazj/xlart/
+
+[1]: https://raw.github.com/ayvazj/xlart/master/doc/demo.png
+[2]: https://pypi.python.org/pypi/xlart/0.1.0/
