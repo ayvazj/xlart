@@ -39,8 +39,15 @@ def main(args=None):
     for x in xrange(0, width, args.scale):
         dy = 1
         for y in xrange(0, height, args.scale):
-            (red, green, blue) = pix[x, y]
-            colorstr = "%02x%02x%02x" % (clamp(red), clamp(green), clamp(blue))
+            red = blue = green = alpha = 255
+            if len(pix[x,y]) == 3:
+                (red, green, blue) = pix[x, y]
+            elif len(pix[x,y]) == 4:
+                 (red, green, blue, alpha) = pix[x, y]
+
+            if alpha == 0:
+                red = green = blue = 255
+            colorstr = "%02x%02x%02x%02x" % (clamp(alpha), clamp(red), clamp(green), clamp(blue))
             fill = PatternFill("solid", fgColor=colorstr)
             worksheet.cell(column=dx, row=dy).fill = fill
             dy += 1
